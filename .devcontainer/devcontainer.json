@@ -1,11 +1,13 @@
 {    
     "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "extensions": [
+    "customizations": {
+        "vscode": {
+            "extensions": [
         "quantum.quantum-devkit-vscode",
         "ms-vscode.csharp",
         "editorconfig.editorconfig",
         "ms-python.python"
-    ],
+    ]}},
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
         "version": "3.11.2",
